@@ -1,0 +1,441 @@
+:root {
+    --red-color: red;
+    --purple-color: purple;
+    --black-color: #111;
+    --color-dark: rgb(39, 39, 39);
+    --green-color: green;
+    --white-color : #eee;
+    --gray-color: #8d8d8d;
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    height: 100vh;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.section-course {
+    height: 100vh;
+    background: var(--color-dark)
+}
+
+.main-course {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.curso1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/cadeado.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 40px 100px;
+}
+
+.curso1:hover {
+    transform: scale(1.1);
+    box-shadow: 0.1px 0.1px 30px var(--white-color);
+}
+
+.curso1 h1 {
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.curso1 p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.curso1 ul li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.curso1 span {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.curso1 a {
+    text-align: center;
+    margin-top: 30px;
+    background: var(--green-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.curso1 a:hover {
+    transition: all 1s ease-in-out;
+    background: var(--white-color);
+    transform: scale(1.1);
+    color: var(--black-color);
+}
+
+.curso2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/termux.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.curso2:hover {
+    transform: scale(1.1);
+    box-shadow: 0.1px 0.1px 30px var(--white-color);
+}
+
+.curso2 h1 {
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.curso2 p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.curso2 ul li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.curso2 span {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.curso2 a {
+    text-align: center;
+    margin-top: 30px;
+    background: var(--green-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.curso2 a:hover {
+    transition: all 1s ease-in-out;
+    background: var(--white-color);
+    transform: scale(1.1);
+    color: var(--black-color);
+}
+
+.curso3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/ferramentas.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.curso3:hover {
+    transform: scale(1.1);
+    box-shadow: 0.1px 0.1px 30px var(--white-color);
+}
+
+.curso3 h1 {
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.curso3 p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.curso3 ul li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.curso3 span {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.curso3 a {
+    text-align: center;
+    margin-top: 30px;
+    background: var(--green-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.curso3 a:hover {
+    transition: all 1s ease-in-out;
+    background: var(--white-color);
+    transform: scale(1.1);
+    color: var(--black-color);
+}
+
+.text-green {
+    color: var(--green-color);
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.main-content h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-content p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-content a {
+    color: var(--white-color);
+    margin-top: 10px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--green-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-content a:hover {
+    background: var(--gray-color);
+    transition: all 1s ease;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .main-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+    }
+
+    .main-content a {
+        color: var(--white-color);
+        margin-top: 10px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: var(--green-color);
+        text-align: center;
+        border-radius: 5px;
+        
+    }
+
+    .main-course {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 500px;
+        margin-left: 20px;
+    }
+
+    .curso1 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../img/cadeado.jpg');
+        background-size: cover;
+        background-position: center center;
+        margin-right: 30px;
+        transition: all 0.3s ease;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .curso1 h1 {
+        position: relative;
+        top: 1px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .curso1 p {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso1 ul li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .curso1 span {
+        font-size: 30px;
+    }
+    
+    .curso1 a {
+        text-align: center;
+        margin-top: 30px;
+        background: var(--green-color);
+        color: var(--white-color);
+        border-radius: 5px;
+    }
+
+    .curso2 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../img/termux.jpg');
+        background-size: cover;
+        background-position: center center;
+        margin-right: 30px;
+        transition: all 0.3s ease;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .curso2 h1 {
+        position: relative;
+        top: 1px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .curso2 p {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso2 ul li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .curso2 span {
+        font-size: 30px;
+    }
+    
+    .curso2 a {
+        text-align: center;
+        margin-top: 30px;
+        background: var(--green-color);
+        color: var(--white-color);
+        border-radius: 5px;
+    }
+    
+    .curso3 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../img/ferramentas.jpg');
+        background-size: cover;
+        background-position: center center;
+        margin-right: 30px;
+        transition: all 0.3s ease;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .curso3 h1 {
+        position: relative;
+        top: 1px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso3 p {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso3 ul li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .curso3 span {
+        font-size: 30px;
+    }
+    
+    .curso3 a {
+        text-align: center;
+        margin-top: 30px;
+        background: var(--green-color);
+        color: var(--white-color);
+        border-radius: 5px;
+    }
+
+    .text-center {
+        font-size: 30px;
+        position: relative;
+        top: 60px;
+        text-align: center;
+    }
+
+}
